@@ -1,0 +1,128 @@
+/*html*/
+html {
+    scroll-behavior: smooth;
+  }
+/*body*/
+body {
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #da9068;
+    padding: 20px 0;
+    margin: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+.semi-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    font-family: "Berlin Sans FB Demi", sans-serif;
+    gap: 400px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.semi h2 {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.arch h2 {
+    margin-top: 70px;
+    margin-right: 200px;
+    padding: 0;
+}
+
+.menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    width: 60%;
+    background-color: #DF7132;
+    z-index: 1000;
+}
+
+.menu ul {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 20px;
+    list-style: none;
+}
+.menu a {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.menu a:hover {
+    color: #FFD700;  /* 文字色を変更 */
+    transform: scale(1.1);  /* 少し大きくする */
+    text-decoration: underline;  /* 下線を追加 */
+}
+
+/* main */
+main {  
+    padding: 20px;
+    background-color: #FBE3D6;
+}
+
+/*member*/
+.member-title h2 {
+    text-align: center;
+    font-size: 60px;
+}
+.members1 {
+    display: flex;
+    justify-content: center; /* 中央揃え */
+    gap: 80px;               /* 要素間の余白 */
+    flex-wrap: wrap;         /* 画面が狭い時は折り返す */
+    padding: 40px;
+}
+.members2 {
+    display: flex;
+    justify-content: center; /* 中央揃え */
+    gap: 80px;               /* 要素間の余白 */
+    flex-wrap: wrap;         /* 画面が狭い時は折り返す */
+    padding: 40px;
+}
+.member {
+    width: 350px;             /* 丸のサイズ */
+    height: 350px;
+    background-color: #156082; /* 好きな青 */
+    border-radius: 50%;       /* 丸くする */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;             /* 文字色（背景に合わせて） */
+    text-align: center;
+    overflow: hidden;         /* 中身がはみ出たら切る */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* 影（任意） */
+    font-size: 30px;
+}
+.member img {
+    width: 150px;     /* 顔写真のサイズ */
+    height: 150px;
+    border-radius: 50%; /* 顔写真も丸く */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+/*contents*/
+.contents-title h2{
+    text-align: center;
+    font-size: 60px;
+}
